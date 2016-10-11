@@ -1,0 +1,545 @@
+/* container一般为1002px */
+.container {
+	width: 1002px;
+	margin: 0 auto;
+}
+/*  header Start */
+.header {
+	width: 100%;
+	height: 30px;
+	background-color: #393939;
+}
+
+.link {
+	width: 600px;
+	height: 30px;
+	float: left;
+}
+
+.tel {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 30px;
+}
+
+.tel img {
+	width: 15px;
+	height: 15px;
+}
+
+.tel span {
+	color: #fff;
+	font-size: 13px;
+}
+
+.email {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 30px;
+}
+
+.email img {
+	width: 15px;
+	height: 15px;
+}
+
+.email span {
+	color: #fff;
+	font-size: 13px;
+}
+
+.chat {
+	width: 400px;
+	height: 30px;
+	float: right;
+}
+
+.chat a {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 5px;
+	margin-right: 35px;
+}
+
+.chat a img {
+	width: 20px;
+	height: 15px;
+	vertical-align: middle;
+}
+/*  header End  nav Start  */
+.nav {
+	width: 100%;
+	height: 98px;
+	position: relative;
+	z-index: 100;
+}
+
+.logo {
+	float: left;
+	width: 370px;
+	height: 72px;
+	padding: 26px 0 0 30px;
+}
+
+.logo_img {
+	float: left;
+	width: 83px;
+	height: 47px;
+	vertical-align: middle;
+	background-color: red;
+}
+
+.logo_txt {
+	float: left;
+	height: 48px;
+	padding-left: 16px;
+}
+
+.logo_txt p {
+	width: 86px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.nav_cont {
+	float: right;
+	width: 600px;
+	height: 98px;
+	position: relative;
+}
+
+.nav_cont ul {
+	float: right;
+	height: 72px;
+	width: 500px;
+	padding-top: 26px;
+	padding-right: 42px;
+}
+
+.nav_cont ul li {
+	float: left;
+	height: 72px;
+	width: 100px;
+}
+
+.li_hover {
+	background-color: #517b9b;
+	color: #fff;
+}
+
+.nav_cont ul li>a {
+	height: 72px;
+	width: 100px;
+	display: block;
+}
+
+.nav_cont ul li>a:hover {/* 导航栏移入的效果 */
+	height: 72px;
+	width: 100px;
+	display: block;
+	color: #fff;
+}
+
+.nav_cont ul li dl {
+	padding-top: 10px;
+	z-index: 99;
+	background-color: #517b9b;
+	color: #fff;
+	opacity: 0.75;
+	display: none;
+}
+
+.nav_cont ul li dl dd {
+	height: 30px;
+	width: 100px;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+}
+
+.nav_cont ul li a p {
+	text-align: center;
+}
+
+.nav_cont ul li dl dd a {
+	text-align: center;
+	color: #fff;
+}
+/*  nav End  banner Start */
+.banner {
+	width: 100%;
+	height: 466px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+/*  banner End  aboutus Start */
+.aboutus {
+	width: 100%;
+	height: 380px;
+}
+
+.about_tit {
+	margin: 0 auto;
+	height: 136px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.about_tit h2,.about_tit h3,.about_tit h4 {
+	text-align: center;
+}
+
+.about_tit h2 {
+	font-family: Times New Roman;
+	font-size: 24px;
+	padding-top: 38px;
+}
+
+.about_tit h3 {
+	font-size: 18px;
+	padding-top: 15px;
+}
+
+.about_tit h4 {
+	font-size: 14px;
+	margin: 0 auto;
+	width: 145px;
+	border-bottom: 1px solid #a6a6a6;
+	padding-top: 10px;
+}
+
+.about_cont {
+	height: 214px;
+	padding-top: 20px;
+}
+
+.about_cont ul li {
+	float: left;
+	width: 334px;
+}
+
+.tit {
+	font-size: 18px;
+	padding-left: 20px;
+	border-left: 2px solid #085697;
+}
+
+.cont {
+	padding: 20px 40px 0 0;
+}
+/*  aboutus End  tip Start */
+.tip {
+	background-color: #19294b;
+	height: 70px;
+}
+
+.tip p {
+	font-family: 微软雅黑;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #fff;
+}
+/*  tip End  organization Start */
+.organization {
+	height: 814px;
+}
+
+.organization_tit {
+	margin: 0 auto;
+	height: 112px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.organization_tit h2,.organization_tit h3,.organization_tit h4 {
+	text-align: center;
+}
+
+.organization_tit h2 {
+	font-family: Times New Roman;
+	font-size: 24px;
+	padding-top: 38px;
+}
+
+.organization_tit h3 {
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #a6a6a6;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.organization_cont {
+	margin-top: 40px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.organization_cont img {
+	width: 1281px;
+	margin: 0 auto;
+}
+/*  organization End  news Start */
+.news {
+	height: 458px;
+	background-image: url(../images/news_bg.png);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+.news_tit {
+	margin: 0 auto;
+	height: 112px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.news_tit h2,.news_tit h3,.news_tit h4 {
+	text-align: center;
+}
+
+.news_tit h2 {
+	font-family: Times New Roman;
+	font-size: 24px;
+	padding-top: 38px;
+}
+
+.news_tit h3 {
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #a6a6a6;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.news_cont {
+	margin: 50px 60px 40px;
+	height: 280px;
+	position: relative;
+	overflow: hidden;
+}
+
+.pre_page,.next_page,.news_cont ul {
+	float: left;
+	height: 280px;
+	overflow: hidden;
+}
+
+.pre_page,.next_page {
+	position: absolute;
+	width: 60px;
+	height: 280px;
+	margin: 50px 0 40px;
+	line-height: 280px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	/* 以下是过渡的属性和时间（不同浏览器需要不同的属性名） */
+	transition:opacity 2s,background 2s height 2s;
+	-moz-transition:opacity 2s,background 2s, -moz-transform 2s; /* Firefox 4 */
+	-webkit-transition:opacity 2s,background 2s, -webkit-transform 2s; /* Safari and Chrome */
+	-o-transition:opacity 2s, -o-transform 2s; /* Opera */
+}
+
+.pre_page:hover,.next_page:hover {/* CSS3中实现移入之后过渡 */
+	opacity: 0.5;
+	background:rgba(0,0,0,0.6);
+}
+
+.pre_page img,.next_page img {
+	padding-top: 130px;
+}
+
+.news_cont ul {
+	margin: 0 auto;
+	width: 882px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.news_cont ul li {
+	height: 282px;
+	padding: 0 40px;
+	float: left;
+	display: inline;
+	text-align: center;
+}
+
+.news_cont ul li a {
+	width: 214px;
+	height: 282px;
+	display: block;
+}
+
+.news_img {
+	width: 214px;
+	height: 170px;
+}
+
+.news_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.news_content {
+	width: 174px;
+	height: 78px;
+	background-color: #eeeeee;
+	padding: 20px;
+}
+
+.news_content_tit {
+	font-size: 14px;
+}
+
+.news_content_cont {
+	font-size: 12px;
+}
+/*  news End  serves Start */
+.serves {
+	height: 820px;
+}
+
+.serves_tit {
+	margin: 0 auto;
+	height: 112px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.serves_tit h2,.serves_tit h3,.serves_tit h4 {
+	text-align: center;
+}
+
+.serves_tit h2 {
+	font-family: Times New Roman;
+	font-size: 24px;
+	padding-top: 38px;
+}
+
+.serves_tit h3 {
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #a6a6a6;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.serves_cont_t {
+	text-align: center;
+	padding-top: 30px;
+	width: 738px;
+	margin: 0 auto;
+}
+
+.serves_cont_img {
+	padding: 30px;
+	width: 1002px;
+	height: 100%; /*非IE的主流浏览器识别的垂直居中的方法*/
+	display: table-cell;
+	vertical-align: middle; /*设置水平居中*/
+	text-align: center; /* 针对IE的Hack */
+	*display: block;
+	*font-size: 175px;/*约为高度的0.873，200*0.873 约为175*/
+	*font-family: Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+}
+
+.serves_cont_img img {
+	vertical-align: middle;
+}
+/*  serves End  footer_link Start */
+.footer_link {
+	width: 100%;
+	height: 360px;
+	background-color: #393939;
+	color: #c0c0c6;
+}
+
+.left_contact {
+	float: left;
+	padding-left: 120px;
+}
+
+.left_tit {
+	font-family: Times New Roman;
+	font-size: 24px;
+	padding-top: 38px;
+}
+
+.left_cont {
+	height: 290px;
+	padding-top: 20px;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: #5d5d5d;
+	margin: 10px 0;
+}
+
+.left_cont p {
+	line-height: 24px;
+}
+
+.right_link {
+	float: right;
+	padding-top: 38px;
+}
+
+.right_link ul li {
+	float: right;
+	width: 56px;
+	padding: 0 15px;
+	border-left: 1px solid #5a5a5a;
+	text-align: center;
+}
+
+.right_link ul li:last-child {
+	border: none;
+}
+
+.right_link ul li>a {
+	color: #c0c0c6;
+	font-size: 14px;
+}
+
+.right_link ul li dl {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.right_link ul li dd {
+}
+
+.right_link ul li dd a {
+	color: #c0c0c6;
+}
+/*  footer_link End  footer Start */
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #19294b;
+}
+
+.footer h3 {
+	padding-top: 25px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+.footer h4 {
+	padding-top: 5px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
